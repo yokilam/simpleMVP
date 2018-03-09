@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements Contractor{
 
         FragmentManager fragmentManager1= getSupportFragmentManager();
         FragmentTransaction fragmentTransaction1= fragmentManager1.beginTransaction();
-        fragmentTransaction1.replace(R.id.container_two, new SecondFragment())
+        fragmentTransaction1.replace(R.id.container_two, secondFragment)
                 .commit();
     }
 
